@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Problem 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="Problem1.css">
+</head>
+<body>
+	<header>
+			<div class="top-header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-md-4">
+							<p><i class="fa fa-phone" aria-hidden="true"></i> Hotline: <b>0968 159 239 - 08.38 409 092</b></p>
+						</div>
+						<div class="col-12 col-md-4">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Địa chỉ: <b>01 Nguyễn Cửu Vân, Bình Thạnh, TP.HCM</b></p>
+						</div>
+						<div class="col-12 col-md-4">
+							<p><a href="#">Đăng nhập</a> hoặc <a href="">Tạo tài khoản mới</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-4" id="logoVOL">
+						<img src="logo.PNG" alt="" loading="lazy">
+					</div>
+					<div class="col-12 col-md-4" id="form">
+						<form action="" method="GET">
+							<input id="text" type="text" name="text" placeholder="Search..">
+						</form>
+					</div>
+					<div class="col-12 col-md-4" id="shopping-cart-parent">
+						<div class="d-flex align-items-center" id="shopping-cart">
+							<div class="flex-shrink-0">
+							    <button id="button-shopping" type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+							</div>
+							<div class="flex-grow-1 md-3" id="shopping-cart-product">
+							    <a href="">3 sản phẩm</a>
+							    <p><b>1,289,000đ</b></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<nav class="nav">
+				<div class="container-fluid">
+					<ul class="menu">
+						<li class="active"><a href="">TRANG CHỦ</a></li>
+						<li><a href="">HOA SINH NHẬT</a></li>
+						<li><a href="">HOA TÌNH YÊU</a></li>
+						<li><a href="">HOA CHÚC MỪNG</a></li>
+						<li><a href="">HOA VĂN PHÒNG</a></li>
+						<li><a href="">CHỦ ĐỀ</a></li>
+						<li>
+							<a href="">THIẾT KẾ</a>
+							<ul class="sub-menu">
+								<li><a href="">HOA CÀNH</a></li>
+								<li><a href="">HOA BÓ</a></li>
+								<li><a href="">HOA LẲNG</a></li>
+								<li><a href="">HOA GIỎ</a></li>
+								<li><a href="">HOA HỘP</a></li>
+								<li><a href="">HOA BÌNH</a></li>
+								<li><a href="">HOA KỆ</a></li>
+								<li><a href="">HOA CHẬU</a></li>
+							</ul>
+						</li>
+						<li><a href="">THỂ LOẠI</a></li>
+						<li><a href="">QUÀ TẶNG</a></li>
+					</ul>
+				</div>
+				<div class="mobile-menu">
+					<span class="mobile-menu-icon"><i class="fa fa-align-justify" aria-hidden="true"></i></span>
+					<span class="mobile-menu-title">DANH MỤC SẢN PHẨM</span>
+				</div>
+				<div class="mobile-menu-group">
+					<ul class="parent-menu-mobile">
+						<li class="active"><a href="">TRANG CHỦ</a></li>
+						<li><a href="">HOA SINH NHẬT</a></li>
+						<li><a href="">HOA TÌNH YÊU</a></li>
+						<li><a href="">HOA CHÚC MỪNG</a></li>
+						<li><a href="">HOA VĂN PHÒNG</a></li>
+						<li><a href="">CHỦ ĐỀ</a></li>
+						<li>
+							<a href="">THIẾT KẾ</a>
+							<ul class="sub-menu-mobile">
+								<li><a href="">HOA CÀNH</a></li>
+								<li><a href="">HOA BÓ</a></li>
+								<li><a href="">HOA LẲNG</a></li>
+								<li><a href="">HOA GIỎ</a></li>
+								<li><a href="">HOA HỘP</a></li>
+								<li><a href="">HOA BÌNH</a></li>
+								<li><a href="">HOA KỆ</a></li>
+								<li><a href="">HOA CHẬU</a></li>
+							</ul>
+						</li>
+						<li><a href="">THỂ LOẠI</a></li>
+						<li><a href="">QUÀ TẶNG</a></li>
+					</ul>
+				</div>
+			</nav>
+	</header>
+</body>
+</html>

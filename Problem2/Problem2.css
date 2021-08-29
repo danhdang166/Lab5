@@ -1,0 +1,76 @@
+.cus-hr {
+	border-top: 2px solid rgb(103, 45, 145);
+}
+.icon {
+	color: white;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+	vertical-align: middle;
+	background-color: rgb(103, 45, 145);
+}
+.icon i {
+	font-size: 50px;
+}
+.text {
+	padding-left: 10px;
+}
+.text h3 {
+	font-weight: bold;
+	font-size: 24px;
+	color: rgb(103, 45, 145);
+}
+.text p {
+	font-size: 16px;
+}
+.footer-hr {
+	width: 20%;
+	margin-right: 80%;
+	border-top: 4px solid rgb(103, 45, 145);
+}
+.block_13 {
+	padding: 30px;
+	background-color: rgb(248, 248, 248);
+}
+.footer-list {
+	list-style-type: none;
+	margin-left: -40px;
+}
+.adress-footer {
+	margin-right: 50px;
+}
+.phone-footer {
+	margin-right: 22px;
+}
+.hotline-footer {
+	margin-right: 40px;
+}
+#edit-fontawosome i {
+	margin-right: 10px;
+}
+.bot-footer {
+	line-height: 40px;
+	color: white;
+	text-align: center;
+	background-color: rgb(44, 62, 80);
+}
+@media (max-width: 767.98px) {
+	.block_13 {
+		padding: 0;
+	}
+	.hotline-footer {
+		margin-right: 43px;
+	}
+	.bot-footer {
+		line-height: unset;
+		text-align: left;
+	}
+	.bot-footer p {
+		width: 270px;
+		margin-left: 20px;
+	}
+	.dropline {
+		display: block;
+	}
+}

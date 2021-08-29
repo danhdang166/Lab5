@@ -1,0 +1,210 @@
+.top-header {
+	width: 100%;
+	color: white;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(45, 62, 80);
+}
+.top-header p {
+	font-size: 16px;
+	align-items: center;
+}
+.top-header p > a {
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+#logoVOL {
+	max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+	align-self: center;
+}
+#form {
+	align-self: center;
+	padding-left: 20%;
+}
+#shopping-cart {
+	padding-left: 10%;
+	align-self: center;
+}
+#shopping-cart-parent {
+	margin-top: 25px;
+  margin-left: 10px;
+}
+#text {
+  width: 200px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: right; 
+  padding: 2%;
+  background-repeat: no-repeat;
+}
+#shopping-cart-product {
+	margin-top: 10px;
+	padding-left: 5%;
+}
+#shopping-cart-product a {
+	color: black;
+}
+#shopping-cart-product p {
+	font-weight: bold;
+	color: red;
+}
+#button-shopping {
+	width: 40px;
+	height: 40px;
+	border: none;
+	color: white;
+	border-radius: 50%;
+	background-color: red;
+}
+.nav {
+	background-color: rgb(101, 45, 146);
+	text-align: center;
+}
+.nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.menu > li {
+	margin-left: -4px;
+	line-height: 40px;
+	position: relative;	
+	display: inline-block;
+}
+.menu li a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding: 12px 20px;
+}
+.menu > .active, .menu > li:hover > a {
+	background-color: rgb(121, 57, 169);
+	text-decoration: none;
+}
+.sub-menu {
+	display: none;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	width: 200px;
+	box-shadow: 0 0 5px 1px #ddd;
+	position: absolute;
+	background-color: white;
+}
+.sub-menu li, .sub-menu a {
+	margin-left: 0 !important;
+	color: rgb(101, 45, 146) !important;
+	display: block !important;
+	text-align: left !important;
+}
+.nav li:hover ul {
+	display: block;
+}
+.mobile-menu {
+	display: none;
+}
+.sub-menu li:hover > a {
+	color: white !important;
+	background-color: rgb(101, 45, 146);
+	text-decoration: none;
+}
+.mobile-menu-group {
+	display: none; 
+}
+@media (max-width: 767.98px) { 
+	.top-header {
+		font-size: 14px;
+		height: 120px;
+		line-height: 30px;
+		text-align: left;
+	}
+	.top-header p {
+		margin: 0;
+	}
+	.top-header p > a {
+		line-height: 30px;
+		text-align: left;
+		font-size: 14px;
+	}
+	#logoVOL img {
+		margin-left: 0px;
+		max-width: 300px;
+		align-self: center;
+	}
+	#form {
+	  max-width: 240px;
+	  margin-left: 90px;
+	  padding-left: 0px;
+	}
+	#shopping-cart {	
+		padding: 0;
+	  width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	#shopping-cart-parent {
+    margin-top: 0;
+    margin-left: 0;
+	}
+	.menu {
+		display: none;
+	}
+	.mobile-menu {
+		display: block;
+		width: 300px;
+	  padding: 5px;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	.mobile-menu-icon {
+		cursor: pointer;
+	}
+	.mobile-menu-icon i {
+		color: white;
+		font-size: 20px;
+		padding: 5px;
+		border: 1px solid white;
+		width: 40px;
+	}
+	.mobile-menu-title {
+		margin-left: 10px;
+		color: white;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.mobile-menu-group {
+		display: none;
+		position: fixed;
+		text-align: left;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	.mobile-menu-group > .parent-menu-mobile {
+		padding: 10px;
+		width: 80%;
+		box-sizing: border-box;
+		height: 100vh;
+		background-color: white;
+	}
+	.mobile-menu-group > .parent-menu-mobile li {
+		text-decoration: none;
+		color: #333;
+		display: block;
+	}
+	.mobile-menu-group > .parent-menu-mobile .sub-menu-mobile {
+		padding: 0 0 0 30px
+	}
+}
